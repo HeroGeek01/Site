@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Login</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        body{
+            background-color: greenyellow;
+        }
+        div {
+            text-align: center;
+            margin: auto;
+            width: 30%;
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 150px;
+            min-width: 200px;
+            background-color: white;
+            border: 2px solid greenyellow;
+            box-shadow: 10px -10PX green;
+
+        }
+        input{
+            padding-left: 10px;
+            margin: 10px;
+            height: 30px;
+            width: 50%;
+        }
+        button{
+            padding: 15px;
+            width: 50%;
+            background-color: greenyellow;
+            border-radius: 5px;
+            /*background-color: rgb(235,235,235);*/
+        }
+        img{
+            width: 150px;
+        }
+        #aviso{
+            visibility: hidden;
+        }
+    </style>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div>
+        <img src="logo.jpg" alt="">
+        <h1>Fazer Login</h1>
+        <input id="usuario" type="text" placeholder="Usuário"><br>
+        <input id="senha" type="password" placeholder="Senha"><br>
+        <p id="avido">Usuario ou senha errados!</p>
+        <button onclick="login();" type="submit"><strong>ENTRAR</strong></button>
+    </div>
+
+</body>
+
+</html>
