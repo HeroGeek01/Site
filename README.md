@@ -1,5 +1,5 @@
 # Site  de Exemplo para usar o Git hub
-
+## Passos Da Aula
 Neste projeto vamos:
   * aprender a criar um repositorio no git hub;
   * aprender a usar o comando `git clone {ssh do repositorio}`;
@@ -7,3 +7,5 @@ Neste projeto vamos:
   * vamos aprender a usar os comandos:
     * `git status`, `git add`, `git commit -m 'mensagem do commit'`, `git pull`, `git push`;
   * vamo apreder a publicara nosso site.
+
+    
